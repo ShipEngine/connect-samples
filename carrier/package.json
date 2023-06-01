@@ -1,0 +1,39 @@
+{
+  "name": "carrier-api",
+  "description": "Sample carrier app",
+  "version": "1.0.0",
+  "appId": "89ebe16c-29fb-4dc5-b949-349bd4625656",
+  "author": {
+    "email": "connect@shipengine.com",
+    "name": "ShipEngine",
+    "url": "https://connect.shipengine.com"
+  },
+  "connect": {
+    "version": 4
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@shipengine/connect-carrier-api": "^4.0.0",
+    "@shipengine/connect-runtime": "^4.0.0"
+  },
+  "devDependencies": {
+    "@shipengine/connect-local": "^4.0.0",
+    "@types/node": "^20.2.5",
+    "typescript": "^5.1.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "ShipEngine",
+    "carrier app"
+  ],
+  "main": "lib/index.js",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "connect-local .",
+    "watch": "tsc --watch"
+  },
+  "types": "lib/index.ts"
+}

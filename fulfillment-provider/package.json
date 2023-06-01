@@ -1,0 +1,21 @@
+{
+  "name": "fulfillment-provider",
+  "version": "0.1.0",
+  "connect": {
+    "version": 4
+  },
+  "dependencies": {
+    "@shipengine/connect-fulfillment-provider-api": "^4.0.0",
+    "@shipengine/connect-runtime": "^4.0.0"
+  },
+  "devDependencies": {
+    "@shipengine/connect-local": "^4.0.0",
+    "@types/node": "^20.2.5",
+    "typescript": "^5.1.3"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "connect-local ."
+  }
+}

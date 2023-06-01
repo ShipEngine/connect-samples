@@ -1,0 +1,7 @@
+{
+  "variables": [
+    { "key": "add_on-1", "value": { "adjustment": 3.5 } },
+    { "key": "add_on-2", "value": { "adjustment": 1.01 } },
+    { "key": "confirmation-delivery", "value": 2.95 }
+  ]
+}

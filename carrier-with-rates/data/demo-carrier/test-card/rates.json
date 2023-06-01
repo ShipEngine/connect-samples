@@ -1,0 +1,12 @@
+{
+  "rates": [
+    { "key": "ground-Z1-10lb", "value": "10" },
+    { "key": "ground-Z1-20lb", "value": "20" },
+    { "key": "ground-Z2-10lb", "value": "30" },
+    { "key": "ground-Z2-20lb", "value": "40" },
+    { "key": "air-Z1-10lb", "value": "110" },
+    { "key": "air-Z1-20lb", "value": "120" },
+    { "key": "air-Z2-10lb", "value": "210" },
+    { "key": "air-Z2-20lb", "value": "220" }
+  ]
+}
