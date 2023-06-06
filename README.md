@@ -8,14 +8,12 @@ This repo contains sample ShipEngine Connect apps to demonstrate and test variou
 
 | Name | Description |
 |------|-------------|
-| [carrier](./carrier/) | Empty [carrier](https://connect.shipengine.com/shipping/) app with all the methods stubbed out |
-| [carrier-with-rates](./carrier-with-rates/) | Empty carrier app that uses Native Rating for delivering rates |
+| [carrier-with-rates](./carrier-with-rates/) | Empty [carrier](https://connect.shipengine.com/shipping/) app that uses Native Rating for delivering rates |
 | [freight](./freight/) | Empty [freight](https://connect.shipengine.com/freight/) app with all the methods stubbed out |
 | [fulfillment-provider](./fulfillment-provider/) | Empty [fulfillment provider](https://connect.shipengine.com/fulfillment-provider/) app with all the methods stubbed out |
 | [inventory](./inventory/) | Empty [inventory](https://connect.shipengine.com/inventory/) app with all the methods stubbed out |
-| [ontrac](./ontrac/) | Example app that implements the [OnTrac](https://www.ontrac.com) carrier |
-| [order-source](./order-source/) | Empty [order source](https://connect.shipengine.com/orders/) app with all the methods stubbed out |
-| [prestashop](./prestashop/) | Example app that implements the [PrestaShop](https://prestashop.com) order source |
+| [ontrac](./ontrac/) | Example app that implements the [OnTrac](https://www.ontrac.com) [carrier](https://connect.shipengine.com/shipping/) |
+| [prestashop](./prestashop/) | Example app that implements the [PrestaShop](https://prestashop.com) [order source](https://connect.shipengine.com/orders/) |
 
 ## About ShipEngine Connect
 
