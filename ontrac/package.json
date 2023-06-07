@@ -1,0 +1,34 @@
+{
+  "name": "demo-ontrac",
+  "description": "OnTrac is a privately held logistics company that contracts regional shipping services in the Wester United States.",
+  "version": "1.0.0",
+  "author": "ShipEngine",
+  "appId": "76573baa-4de8-4dcc-80df-56a683dbcdab",
+  "dependencies": {
+    "@shipengine/connect-carrier-api": "^4.0.1",
+    "@shipengine/connect-runtime": "^4.0.0",
+    "axios": "^1.4.0",
+    "moment": "^2.29.4",
+    "xml2js": "^0.6.0"
+  },
+  "devDependencies": {
+    "@shipengine/connect-local": "^4.0.0",
+    "@types/node": "^20.2.5",
+    "typescript": "^5.1.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "ShipEngine",
+    "carrier app"
+  ],
+  "main": "lib/index.js",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "connect-local .",
+    "watch": "tsc --watch"
+  },
+  "types": "lib/index.ts"
+}
