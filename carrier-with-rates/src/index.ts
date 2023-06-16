@@ -8,6 +8,7 @@ import {
   SchedulePickup,
   CancelPickup,
   Track,
+  ValidateShipment,
 } from './methods';
 import { Metadata } from './definitions';
 
@@ -24,4 +25,5 @@ export default {
   SchedulePickup,
   CancelPickup,
   Track,
+  ValidateShipment,
 } satisfies CarrierAppDefinition;
