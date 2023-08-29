@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@jest/types": "^29.5.0",
-    "@shipengine/connect-local": "^4.0.0",
+    "@shipengine/connect": "^4.3.0",
     "@types/jest": "^29.5.2",
     "@types/node": "^20.2.5",
     "@typescript-eslint/eslint-plugin": "^5.59.9",
@@ -35,7 +35,7 @@
   "private": true,
   "scripts": {
     "build": "npm run lint && tsc",
-    "start": "connect-local .",
+    "start": "connect start",
     "start:dev": "npm run build && npm run start",
     "watch": "tsc --watch",
     "test": "jest",
