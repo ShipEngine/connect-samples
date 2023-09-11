@@ -5,7 +5,7 @@
     "version": 4
   },
   "dependencies": {
-    "@shipengine/connect-inventory-api": "^4.3.0",
+    "@shipengine/connect-inventory-api": "^4.0.0",
     "@shipengine/connect-runtime": "^4.0.0"
   },
   "devDependencies": {
