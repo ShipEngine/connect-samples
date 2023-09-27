@@ -6,3 +6,4 @@ export * from './create-manifest';
 export * from './schedule-pickup';
 export * from './cancel-pickup';
 export * from './track';
+export * from './validate-shipment';
